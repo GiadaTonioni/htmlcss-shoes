@@ -33,6 +33,7 @@ body {
     margin-left: 1100px;
     justify-content: flex-end;
     display: flex;
+    z-index: 100;
 }
 
 span {
@@ -67,9 +68,15 @@ img {
     width: 600px;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%);
 }
 
-h1 {
+.descr {
     position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%);
+    text-transform: uppercase;
+    color: yellow;
 }
+
