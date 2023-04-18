@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Rubik Mono One', sans-serif;
 }
@@ -36,13 +40,15 @@ body {
     z-index: 100;
 }
 
-span {
+a {
     background-color: white;
     border-radius: 2em 2em;
     padding: 10px 15px;
     font-size: 15px;
     margin-right: 25px;
     display: inline-block;
+    text-decoration: none;
+    color: black;
 }
 
 .space, #red {
