@@ -9,27 +9,36 @@ body {
 }
 
 .content {
-    height: 100px;
-    background-color: aqua;
     text-align: end;
-}
-
-
-.box {
-    height: 100hv;
-    width: 100hv;
 }
 
 .nav {
+    margin-top: 50px;
     margin-right: 25px;
-    padding-top: 50px;
 }
 
-.nav span {
-    text-align: end;
+span {
     background-color: white;
     border-radius: 2em 2em;
     padding: 10px 15px;
     font-size: 15px;
-    box-shadow: 
+    margin-right: 15px;
+}
+
+.space, #red {
+    height: calc(100hv + 80px);
+    width: 100wv;
+    background-color: red;
+}
+
+.space, #green {
+    background-color: green;
+}
+
+.space, #yellow {
+    background-color: yellow;
+}
+
+.img {
+    
 }
