@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.content {
+    height: 100px;
+    background-color: aqua;
+    text-align: end;
+}
+
+
+.box {
+    height: 100hv;
+    width: 100hv;
+}
+
+.nav {
+    margin-right: 25px;
+    padding-top: 50px;
+}
+
+.nav span {
+    text-align: end;
+    background-color: white;
+    border-radius: 2em 2em;
+    padding: 10px 15px;
+    font-size: 15px;
+    box-shadow: 
+}
