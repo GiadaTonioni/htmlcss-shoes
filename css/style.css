@@ -51,17 +51,20 @@ a {
     color: black;
 }
 
-.space, #red {
+.space {
     height: 100vh;
     width: 100vw;
+}
+
+#red {
     background-color: red;
 }
 
-.space, #green {
+#green {
     background-color: green;
 }
 
-.space, #yellow {
+#yellow {
     background-color: yellow;
 }
 
@@ -77,12 +80,15 @@ img {
     transform: translate(-50%);
 }
 
-.descr {
-    position: absolute;
-    left: 50%;
-    top: 80%;
-    transform: translate(-50%);
+h1 {
     text-transform: uppercase;
     color: yellow;
+    text-align: center;
+    padding-top: 450px;
 }
+
+#yellow h1 {
+    color: green;
+}
+
 
