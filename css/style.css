@@ -20,20 +20,19 @@ body {
 .row {
     display: flex;
     width: 100%;
+    justify-content: flex-end;
 }
 
 .col-50 {
-    width: 100%;
+    width: calc(100% / 4);
+    height: 150px;
+    background-color: transparent;
 }
 
 .nav {
     position: fixed;
     top: 0;
     left: 0;
-    margin-top: 60px;
-    display: flex;
-    z-index: 100;
-    justify-content: flex-end;
 }
 
 a {
@@ -45,6 +44,8 @@ a {
     display: inline-block;
     text-decoration: none;
     color: black;
+    text-align: end;
+    margin-top: 40px;
 }
 
 .space {
@@ -80,7 +81,7 @@ h1 {
     text-transform: uppercase;
     color: yellow;
     text-align: center;
-    padding-top: 450px;
+    padding-top: 400px;
 }
 
 #yellow h1 {
