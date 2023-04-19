@@ -27,6 +27,8 @@ body {
     width: calc(100% / 4);
     height: 150px;
     background-color: transparent;
+    position: fixed;
+    justify-content: flex-end;
 }
 
 .nav {
